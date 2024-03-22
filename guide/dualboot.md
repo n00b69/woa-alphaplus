@@ -5,11 +5,11 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [UEFI image]()
+- [UEFI image]() FILE NEEDED
   
 - [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [StA Installer]() 
+- [StA Installer]() FILE NEEDED
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do that first
