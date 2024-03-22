@@ -7,11 +7,11 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
+- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/download/Drivers/alphaplus-drivers.zip)
 
-- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
+- [Qfil]()
 
-- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+- [Mass storage boot image]()
 
 ## Method 1: offline method
 > This requires you to use a PC. Use Method 2 if you don't have one on hand.
