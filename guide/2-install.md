@@ -9,9 +9,9 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/download/Drivers/alphaplus-drivers.zip)
 
-- [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
+- [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
 
-- [TWRP or Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
+- [TWRP or Orange Fox]()
 
 ### Reboot to download mode
 - Hold **volume down** + **power**.
