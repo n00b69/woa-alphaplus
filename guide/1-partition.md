@@ -9,7 +9,7 @@
 
 - [Qfil]() (to back up partitions)
   
-- [Parted script]()
+- [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
   
 - [TWRP or Orange Fox]()
 
