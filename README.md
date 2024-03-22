@@ -1,3 +1,6 @@
+> [!Important]
+> There is currently no UEFI image available for the LG G8. You can fully install Windows and the drivers, however it is not yet actually possible to boot to Windows.
+
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
 # Running Windows on the LG G8
