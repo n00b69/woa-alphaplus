@@ -1,5 +1,5 @@
 > [!Important]
-> There is currently no UEFI image available for the LG G8. You can fully install Windows and the drivers, however it is not yet actually possible to boot to Windows.
+> I am unable to find a mass storage image for LG G8 (alphaplus), meaning it is currently not possible to use mass storage mode using this guide. Please provide me with this image, if you happen to have one.
 
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
@@ -29,7 +29,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Driver updating instructions](guide/update.md)
 
-- [Extra](guide/extra.md)
+- [Extra](guide/materials.md)
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
