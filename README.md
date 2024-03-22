@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/n00b69/woa-alphaplus/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
+<img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
 # Running Windows on the LG G8
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winong8x)
