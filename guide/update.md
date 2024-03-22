@@ -9,12 +9,9 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/download/Drivers/alphaplus-drivers.zip)
 
-- [Qfil]()
+- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
 
-- [Mass storage boot image]()
-
-## Method 1: offline method
-> This requires you to use a PC. Use Method 2 if you don't have one on hand.
+- [Mass storage boot image]() FILE NEEDED
 
 ### Reboot to download mode
 - Hold **volume down** + **power**.
@@ -52,17 +49,6 @@ exit
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
 > Enter the drive letter of `Windows`, which should be X, then press enter
-
-#### Reboot your device
-> Once the drivers have finished installing
-
-## Finished!
-
-## Method 2: online method
-> This does not require a PC, but may fail if driver signatures change
-
-#### Installing drivers
-> Download and extract the drivers archive onto your LG G8x while in Windows, then run the `OnlineUpdater.cmd` file
 
 #### Reboot your device
 > Once the drivers have finished installing
