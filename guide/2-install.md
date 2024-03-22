@@ -11,7 +11,11 @@
 
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
 
-- [TWRP or Orange Fox]()
+- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
+
+- [TWRP or Orange Fox]() FILE NEEDED
+
+- [Mass storage boot image]() FILE NEEDED
 
 ### Reboot to download mode
 - Hold **volume down** + **power**.
