@@ -7,11 +7,11 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil]() (to back up partitions)
+- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil) (to back up partitions)
   
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
   
-- [TWRP or Orange Fox]()
+- [TWRP or Orange Fox]() FILE NEEDED
 
 ### Notes
 > [!WARNING]  
