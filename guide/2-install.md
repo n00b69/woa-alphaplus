@@ -11,21 +11,17 @@
 
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
 
-- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
+- [Msc script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.sh)
 
-- [TWRP or Orange Fox]() FILE NEEDED
+- [TWRP or Orange Fox]() FILE NEEDED (should already be installed)
 
-- [Mass storage boot image]() FILE NEEDED
+### Boot to recovery
+> Boot to TWRP, Orange Fox, or Lineage Recovery
 
-### Reboot to download mode
-- Hold **volume down** + **power**.
-- Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
-- While holding the **volume down** button, press the **volume up** button.
-
-#### Setting up mass storage mode
+#### Running the msc script
+> Put msc.sh in the platform-tools folder, then run:
 ```cmd
-fastboot boot LGG8XMassStorageBoot.img
+adb push msc.sh / && adb shell sh msc.sh
 ```
 
 ### Diskpart
