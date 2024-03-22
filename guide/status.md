@@ -16,12 +16,12 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Charging ```DEAD slow```
 - [x] Wireless Charging 
 - [x] Screen
-- [ ] Dual Screen For Lg
+- [ ] Dual Screen For LG
 - [ ] MHL
 - [ ] FM
 - [x] GPU
 - [ ] LTE 
-- [x] SD 
+- [ ] SD 
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```If you try to charge the phone it will stop working```
@@ -30,7 +30,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [x] GPS
+- [ ] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
