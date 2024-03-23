@@ -1,5 +1,5 @@
 > [!Important]
-> I am unable to find a mass storage image for LG G8 (alphaplus), meaning it is currently not possible to use mass storage mode using this guide. Please provide me with this image, if you happen to have one.
+> While this guide should theoretically work, the files might not and someone needs to test it. If you're planning on using this guide, please join the [Telegram chat](https://t.me/winong8x) so that you can be assisted along the way.
 
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
