@@ -1,5 +1,5 @@
-> [!Important]
-> While this guide should theoretically work, the files might not and someone needs to test it. If you're planning on using this guide, please join the [Telegram chat](https://t.me/winong8x) so that you can be assisted along the way.
+> [!Warning]
+> You can currently not boot Windows on LG G8 due to no valid UEFI existing, join the [Telegram chat](https://t.me/winong8x) for more info
 
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
