@@ -10,7 +10,9 @@
 - [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil) (to back up partitions)
   
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
-  
+
+- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin)
+
 - [TWRP or Orange Fox]() FILE NEEDED
 
 ### Notes
@@ -56,10 +58,12 @@
 > [!Note]
 > This will back up your partitions to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`. You can restore them later with the **Load Image** function.
 
-#### Clearing the laf partition
+#### Flashing engineering ABL
+> Or you can't use fastboot
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
-- Right click on **laf_a** > **Manage Partition Data** and press **Erase**.
-- Do the same thing for **laf_b**
+- Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
+- Select and flash the **engabl_ab.bin** file.
+- Do the same thing for **abl_b**.
 
 #### Reboot your phone
 > Hold **power** to reboot back to Android
