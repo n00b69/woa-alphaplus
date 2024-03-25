@@ -7,7 +7,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/download/Drivers/alphaplus-drivers.zip)
+- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
 - [Msc script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.sh)
 
