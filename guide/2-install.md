@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/download/Drivers/alphaplus-drivers.zip)
+- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
 
