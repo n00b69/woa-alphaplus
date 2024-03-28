@@ -9,20 +9,19 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
+- [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
 
-- [Msc script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.sh)
-
-- [TWRP or Orange Fox]() FILE NEEDED (should already be installed)
-
-### Boot to recovery
-> Boot to TWRP, Orange Fox, or Lineage Recovery
-
-#### Running the msc script
-> Put msc.sh in the platform-tools folder, then run:
+#### Boot to the UEFI
+> Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
 ```cmd
-adb push msc.sh / && adb shell sh msc.sh
+fastboot boot <path\to\alphaplus-uefi.img>
 ```
+
+#### Enabling mass storage mode
+> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
+- Select UEFI Boot Menu.
+- Select USB Attached SCSI (UAS) Storage.
+- Select Boot.
 
 ### Diskpart
 > [!WARNING]
@@ -85,25 +84,6 @@ assign letter y
 #### Exit diskpart
 ```cmd
 exit
-```
-
-### Reboot to recovery
-> Reboot to recovery. Reinstall the Magisk recovery module if needed
-
-#### Running parted
-```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
-```
-
-#### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 31
-```cmd
-set $ esp on
-```
-
-#### Exit parted
-```sh
-quit
 ```
 
 ### Installing Windows
