@@ -9,12 +9,12 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [UEFI image](https://github.com/n00b69/woa-betalm/releases/tag/UEFI)
+- [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
 
 #### Boot to the UEFI
-> Replace **<path\to\betalm-uefi.img>** with the actual path of the UEFI image
+> Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
 ```cmd
-fastboot boot <path\to\betalm-uefi.img>
+fastboot boot <path\to\alphaplus-uefi.img>
 ```
 
 #### Enabling mass storage mode
