@@ -9,18 +9,19 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [Msc script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.sh)
+- [UEFI image](https://github.com/n00b69/woa-betalm/releases/tag/UEFI)
 
-- [TWRP or Orange Fox]() FILE NEEDED (should already be installed)
-
-### Boot to recovery
-> Boot to TWRP, Orange Fox, or Lineage Recovery
-
-#### Running the msc script
-> Put msc.sh in the platform-tools folder, then run:
+#### Boot to the UEFI
+> Replace **<path\to\betalm-uefi.img>** with the actual path of the UEFI image
 ```cmd
-adb push msc.sh / && adb shell sh msc.sh
+fastboot boot <path\to\betalm-uefi.img>
 ```
+
+#### Enabling mass storage mode
+> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
+- Select UEFI Boot Menu.
+- Select USB Attached SCSI (UAS) Storage.
+- Select Boot.
 
 ### Diskpart
 ```cmd
