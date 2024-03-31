@@ -29,7 +29,7 @@ diskpart
 ```
 
 #### Select the phone's Windows volume
-> Use `list volume` to find it, it should be named **WINMH2LM**
+> Use `list volume` to find it, it should be named **WINALPHA**
 ```diskpart
 select volume <number>
 ```
@@ -47,7 +47,7 @@ exit
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> Enter the drive letter of `Windows`, which should be X, then press enter
+> Enter the drive letter of `WINALPHA`, which should be X, then press enter
 
 #### Reboot your device
 > Once the drivers have finished installing
