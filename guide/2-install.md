@@ -57,7 +57,7 @@ sel par $
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="WINMH2LM"
+format quick fs=ntfs label="WINALPHA"
 ```
 
 #### Add letter to Windows
@@ -73,7 +73,7 @@ sel par $
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="ESPMH2LM"
+format quick fs=fat32 label="ESPALPHA"
 ```
 
 #### Add letter to ESP
