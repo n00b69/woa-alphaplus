@@ -3,7 +3,6 @@
 # Running Windows on the LG G8
 
 ## Project status
-
 Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
@@ -14,7 +13,6 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [x] Charging ```DEAD slow```
 - [x] Display
-- [ ] MHL
 - [ ] FM
 - [x] GPU
 - [ ] LTE 
