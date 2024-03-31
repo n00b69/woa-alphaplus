@@ -7,16 +7,13 @@
 Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
-
 - [x] Audio
 - [x] Battery percentage
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
 - [x] Charging ```DEAD slow```
-- [x] Wireless Charging 
-- [x] Screen
-- [ ] Dual Screen For LG
+- [x] Display
 - [ ] MHL
 - [ ] FM
 - [x] GPU
@@ -26,6 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] UFS
 - [x] USB ```If you try to charge the phone it will stop working```
 - [x] WiFi
+- [ ] Wireless charging ```unknown```
 
 #### Sensors
 - [ ] Accelerometer
