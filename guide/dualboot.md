@@ -7,7 +7,7 @@
 ### Prerequisites
 - [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
   
-- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
   
 - [Switch To Android package](https://github.com/n00b69/woa-alphaplus/releases/download/Files/alphaplus-sta.zip)
 
