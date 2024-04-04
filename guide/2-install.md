@@ -11,6 +11,9 @@
 
 - [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
 
+### Reboot to fastboot mode
+- With the device turned off, hold the **volume down** button, then plug the cable in.
+
 #### Boot to the UEFI
 > Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
 ```cmd
