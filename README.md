@@ -1,5 +1,5 @@
-> [!Important]
-> The files provided in this guide have not been tested, please join the [Telegram chat](https://t.me/winong8x) if you are planning on installing Windows
+> [!Warning]
+> This device and the files provided in this guide have issues. Do not use.
 
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
