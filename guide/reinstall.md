@@ -7,14 +7,14 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers](https://github.com/n00b69/woa-betalm/releases/tag/Drivers)
+- [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [UEFI image](https://github.com/n00b69/woa-betalm/releases/tag/UEFI)
+- [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
 
 #### Boot to the UEFI
-> Replace **<path\to\betalm-msc.img>** with the actual path of the UEFI image
+> Replace **<path\to\alphaplus-msc.img>** with the actual path of the UEFI image
 ```cmd
-fastboot boot <path\to\betalm-msc.img>
+fastboot boot <path\to\alphaplus-msc.img>
 ```
 
 #### Enabling mass storage mode
@@ -63,7 +63,7 @@ exit
 ```
 
 #### Formatting Windows
-> Go to Windows Explorer > This PC and select **WINBETALM**. Right click and format as NTFS.
+> Go to Windows Explorer > This PC and select **WINALPHA**. Right click and format as NTFS.
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
@@ -77,7 +77,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> Enter the drive letter of **WINBETALM**, which should be X, then press enter
+> Enter the drive letter of **WINALPHA**, which should be X, then press enter
 
 ### Boot into Windows
 Reboot your phone. If you end up in Android instead of Windows, flash the UEFI again using WOA Helper.
