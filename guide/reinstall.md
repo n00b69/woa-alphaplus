@@ -12,9 +12,9 @@
 - [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
 
 #### Boot to the UEFI
-> Replace **<path\to\alphaplus-msc.img>** with the actual path of the UEFI image
+> Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
 ```cmd
-fastboot boot <path\to\alphaplus-msc.img>
+fastboot boot <path\to\alphaplus-uefi.img>
 ```
 
 #### Enabling mass storage mode
