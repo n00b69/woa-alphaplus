@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-betalm/blob/main/betalm.png" width="350" alt="Windows 11 running on betalm">
+<img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
-# Running Windows on the LG G8s
+# Running Windows on the LG G8
 
 ## List of supported apps/games
 This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
