@@ -9,12 +9,12 @@
   
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
+- [Mass storage image](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.img)
 
-#### Boot to the UEFI
-> Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
+#### Boot to the mass storage mode UEFI
+> Replace **<path\to\msc.img>** with the actual path of the image
 ```cmd
-fastboot boot <path\to\alphaplus-uefi.img>
+fastboot boot <path\to\msc.img>
 ```
 
 #### Enabling mass storage mode
