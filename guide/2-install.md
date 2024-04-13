@@ -13,6 +13,7 @@
 
 ### Reboot to fastboot mode
 - With the device turned off, hold the **volume down** button, then plug the cable in.
+- If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
 #### Boot to the UEFI
 > Replace **<path\to\alphaplus-uefi.img>** with the actual path of the UEFI image
