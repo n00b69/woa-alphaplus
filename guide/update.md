@@ -5,55 +5,19 @@
 ## Updating drivers
 
 ### Prerequisites
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-  
 - [Drivers](https://github.com/n00b69/woa-alphaplus/releases/tag/Drivers)
 
-- [Mass storage image](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.img)
-
-#### Boot to the mass storage mode UEFI
-> Replace **<path\to\msc.img>** with the actual path of the image
-```cmd
-fastboot boot <path\to\msc.img>
-```
-
-#### Enabling mass storage mode
-> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
-- Select UEFI Boot Menu.
-- Select USB Attached SCSI (UAS) Storage.
-- Select Boot.
-
-### Diskpart
-```cmd
-diskpart
-```
-
-#### Select the phone's Windows volume
-> Use `list volume` to find it, it should be named **WINALPHA**
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter x
-```diskpart
-assign letter x
-```
-
-#### Exit diskpart:
-```diskpart
-exit
-```
+### Boot into Windows
+> Flash the UEFI image in fastboot or use the WOA Helper app
 
 ### Installing Drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+> Unpack the driver archive on your LG while in Windows, then open the `OnlineUpdater.cmd` file
 
-> Enter the drive letter of `WINALPHA`, which should be X, then press enter
+> Follow any instructions provided on the screen
 
-#### Reboot your device
-> Once the drivers have finished installing
+> If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
 
 ## Finished!
-
 
 
 
