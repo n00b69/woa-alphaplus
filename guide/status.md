@@ -7,19 +7,19 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 - [x] Audio
-- [x] Battery percentage
+- [ ] Battery percentage ```TESTING```
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging ```DEAD slow```
+- [ ] Charging ```TESTING```
 - [x] Display
 - [ ] FM
 - [x] GPU
 - [ ] LTE 
-- [ ] SD 
+- [ ] SD ```TESTING```
 - [x] Touchscreen
 - [x] UFS
-- [x] USB ```If you try to charge the phone it will stop working```
+- [ ] USB ```TESTING```
 - [x] WiFi
 - [ ] Wireless charging ```unknown```
 
