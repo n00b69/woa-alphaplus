@@ -9,7 +9,7 @@
   
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
   
-- [Switch To Android package](https://github.com/n00b69/woa-alphaplus/releases/download/Files/alphaplus-sta.zip)
+- [Switch To Android package](https://github.com/n00b69/woa-alphaplus/releases/download/Files/sta-alpha.zip)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do that first
@@ -22,7 +22,7 @@
 > If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the STA files.
 >
 > Do the same thing if the folder is read-only.
-- Create a folder called `sta` in Windows and unpack the four files in the `Switch to Android package` file here (the files should go to `/sdcard/Windows/sta`
+- Create a folder called `sta` in Windows and unpack the four files in `sta-alpha.zip` file here (the files should go to `/sdcard/Windows/sta`
 - Return to the WOA Helper app and press the `Quickboot` button.
 
 ### Setup - Windows
