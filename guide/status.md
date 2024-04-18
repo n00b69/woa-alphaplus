@@ -15,8 +15,8 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Display
 - [ ] FM
 - [x] GPU
-- [ ] LTE 
-- [ ] SD ```TESTING```
+- [ ] LTE/SMS
+- [ ] SD
 - [x] Touchscreen
 - [x] UFS
 - [ ] USB ```TESTING```
