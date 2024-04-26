@@ -7,7 +7,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 - [x] Audio
-- [ ] Battery percentage ```TESTING```
+- [x] Battery percentage
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
