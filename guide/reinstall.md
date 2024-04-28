@@ -2,7 +2,7 @@
 
 # Running Windows on the LG G8
 
-## Installing Windows
+## Reinstalling Windows
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
