@@ -21,7 +21,7 @@ Solution: Install **LineageOS 20**
 ##### Finished!
 
 ## USB does not work
-Enable USB host mode using the [additional materials guide](materials.md).
+Enable USB host mode using the [additional materials guide](materials.md#toggling-usb-host-mode).
 
 ##### Finished!
 
