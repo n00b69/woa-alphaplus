@@ -13,7 +13,7 @@
 
 - [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin)
 
-- [TWRP or Orange Fox]() FILE NEEDED
+- Any custom recovery
 
 ### Notes
 > [!WARNING]  
@@ -40,7 +40,7 @@
 - Open **Qfil**.
 - In "Select Build Type", select **flat build**.
 - In "Select programmer", select the downloaded firehose.
-- In Configuration, make sure the "Device Type" is set to **UFS**.
+- In "Configuration", make sure the "Device Type" is set to **UFS**.
 
 #### Backing up your partitions
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
@@ -58,15 +58,13 @@
 - Do the same thing for **abl_b**.
 
 #### Reboot your phone
-> Hold **power** to reboot back to Android
+> Hold **volume down** + **power** until it shows the LG logo, then release the buttons.
 
-#### Flash TWRP or Orange Fox
-> Use the provided files and flash them in Magisk, then reboot to recovery
->
-> If you have Lineage recovery, you can also use that instead
+#### Reboot to any custom recovery
+> Such as Lineage recovery, OFOX, or TWRP, which should be accessible by holding the **volume up** + **power** buttons, or with the Reboot to recovery button in Magisk
 
 #### Unmount all partitions
-Go to mount in TWRP/Orange Fox and unmount all partitions
+Go to mount in your recovery and unmount all partitions
 
 ### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
@@ -123,10 +121,12 @@ set $ esp on
 quit
 ```
 
-#### Format all data
-Go to the Wipe menu in TWRP, press Format Data, then type `yes`.
+### Format all data
+Go to the Wipe menu in your recovery and wipe all data. If this doesn't work, simply reboot your phone.
 
 #### Check if Android still starts
+> Once it is booted, it should tell you decryption was unsuccesful and it will ask you to erase all data.
+- Press this button to erase all data, let the phone boot back up, then reboot back to fastboot mode.
 Just reboot the phone and see if Android still boots.
 
 ## [Next step: Installing Windows](2-install.md)
