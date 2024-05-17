@@ -5,11 +5,9 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
+- [UEFI image](https://github.com/n00b69/woa-betalm/releases/tag/UEFI)
   
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
-  
-- [Switch To Android package](https://github.com/n00b69/woa-alphaplus/releases/download/Files/sta-alpha.zip)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do that first
