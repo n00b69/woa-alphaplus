@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-betalm/blob/main/betalm.png" width="350" alt="Windows 11 running on betalm">
+<img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
-# Running Windows on the LG G8s
+# Running Windows on the LG G8
 
 ## Expanding your phone's storage
 > Due to LG bullshit, this phone only comes with a 128GB option and forced A/B partitions, which take up precious space. This guide will explain to you how you can delete the B partitions of your phone, to get back 8-10GB of extra space.
@@ -8,11 +8,13 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil](https://github.com/n00b69/woa-betalm/releases/tag/Qfil)
+- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
 
-- [Engineering ABL](https://github.com/n00b69/woa-betalm/releases/download/Files/engabl_ab.bin)
+- [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
+
+- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin)
   
-- [Modded TWRP](https://github.com/n00b69/woa-betalm/releases/download/Files/moddedg8s.img)
+- Any custom recovery
 
 ### Notes
 > [!WARNING]
@@ -57,18 +59,17 @@
 - Once the device has turned off, hold the **volume down** button, then plug the cable back in.
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
-#### Boot into TWRP
-> Replace `path\to\moddedg8s.img` with the actual path of the provided TWRP image
->
-> After booting into TWRP, leave the device on the main screen. You can press the power button to turn the display off, if you want
-```cmd
-fastboot boot path\to\moddedg8s.img
-```
+#### Boot into recovery
+#### Reboot to any custom recovery
+> Such as Lineage recovery, OFOX, or TWRP, which should be accessible by holding the **volume up** + **power** buttons, or with the Reboot to recovery button in Magisk
+
+#### Unmount all partitions
+Go to mount in your recovery and unmount all partitions
 
 ### Preparing for partitioning
-> Replug the cable if it says "no devices/emulators found"
+> Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb shell parted /dev/block/sda
+adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
 #### Printing the current partition table
