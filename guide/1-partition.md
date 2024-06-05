@@ -8,10 +8,12 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 - [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
+
+- [QFILHelper](https://github.com/Beliathal/QFILHelper) Optional, for easier partition backups
   
 - [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
 
-- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin)
+- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin) Only needed if you don't have fastboot
 
 - Any custom recovery
 
