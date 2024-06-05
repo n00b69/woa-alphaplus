@@ -41,7 +41,7 @@
 #### Backing up your partitions
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **vendor_a** > **Manage Partition Data** and press **Read Data**.
-- Do the same thing for **abl_a**, **abl_b**, **system_a**, **system_b**, **product_a**, **product_b**, **OP_a** and **OP_b**.
+- Do the same thing for **abl_a**, **abl_b**, **system_a**, **product_a** and **OP_a**.
 
 > [!Important]
 > Navigate to `C:\Users\YOURNAME\AppData\Roaming\Qualcomm\QFIL\COMPORT_#\` and rename the backed up partitions one by one as you back them up. Qfil does not name the backups, and if you don't rename them, it'll be impossible to figure out which files are which. You can restore them later with the **Load Image** function.
