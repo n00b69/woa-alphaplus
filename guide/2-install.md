@@ -11,14 +11,17 @@
 
 - [Mass storage image](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.img)
 
+- [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
+
 ### Reboot to fastboot mode
 - With the device turned off, hold the **volume down** button, then plug the cable in.
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
+- To install fastboot drivers, extract the contents of **QUD.zip** somewhere, right click on **Android**, click on **Update driver** and **Browse my computer for drivers**, then find and select the **QUD** folder.
 
-#### Boot to the mass storage mode UEFI
-> Replace **<path\to\msc.img>** with the actual path of the image
+#### Boot to the mass storage mode image
+> Replace **path\to\msc.img** with the actual path of the image
 ```cmd
-fastboot boot <path\to\msc.img>
+fastboot boot path\to\msc.img
 ```
 
 #### Enabling mass storage mode
@@ -126,11 +129,11 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 ### Reboot to EDL
-> If you didn't flash the engineering ABL on the previous page, you can skip this step and simply reboot your device
+> If you didn't flash the engineering ABL on the previous page, you can skip this step and the next one and simply reboot your device
 - Open **Device Manager** on your PC
-- With the phone turned off, hold **volume down** + **power**.
+- Hold **volume down** + **power**.
 - After the LG logo appears, while still holding **volume down** + **power**, start rapidly pressing the **volume up** button.
-- Keep doing this until you see **QDLoader 9008** or **QUSB_BULK** in the Device Manager on your PC.
+- Keep doing this until you hear a USB connection sound on your PC, or when **Qualcomm HS-USB QDLoader 9008** appears in the **Ports (COM & LPT)** category of Device Manager.
 
 #### Flashing stock ABL
 > Or your IMEI won't work
@@ -140,9 +143,9 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 - Do the same thing for **abl_b**.
 
 #### Reboot back to Android
-Simply reboot your device
+- Hold **volume down** + **power** until it shows the LG logo, then release the buttons.
 
-## [Last step: let's setup dualboot](dualboot.md)
+## [Last step: Setting up dualboot](dualboot.md)
 
 
 
