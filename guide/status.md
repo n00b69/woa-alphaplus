@@ -11,15 +11,15 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [ ] Charging ```TESTING```
+- [x] Charging
 - [x] Display
-- [ ] FM
+- [ ] FM Radio
 - [x] GPU
 - [ ] LTE/SMS
 - [ ] SD
 - [x] Touchscreen
 - [x] UFS
-- [ ] USB ```TESTING```
+- [x] USB ```sometimes doesn't work after charging```
 - [x] WiFi
 - [ ] Wireless charging ```unknown```
 
