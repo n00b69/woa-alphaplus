@@ -26,7 +26,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [ ] GPS
+- [x] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
