@@ -11,17 +11,16 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging
+- [x] Charging (USB)
+- [ ] Charging (Wireless) ```unknown```
 - [x] Display
-- [ ] FM Radio
 - [x] GPU
 - [ ] LTE/SMS
 - [ ] SD
 - [x] Touchscreen
 - [x] UFS
-- [x] USB ```sometimes doesn't work after charging```
+- [x] USB
 - [x] WiFi
-- [ ] Wireless charging ```unknown```
 
 #### Sensors
 - [ ] Accelerometer
