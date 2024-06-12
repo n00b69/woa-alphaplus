@@ -11,7 +11,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging (USB)
+- [x] Charging (USB) ```VERY slow```
 - [ ] Charging (Wireless) ```unknown```
 - [x] Display
 - [x] GPU
