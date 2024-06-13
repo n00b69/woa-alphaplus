@@ -42,9 +42,9 @@
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
 #### Boot to the mass storage mode UEFI
-> Replace **<path\to\msc.img>** with the actual path of the image
+> Replace `path\to\msc.img` with the actual path of the image
 ```cmd
-fastboot boot <path\to\msc.img>
+fastboot boot path\to\msc.img
 ```
 
 #### Enabling mass storage mode
@@ -59,9 +59,9 @@ diskpart
 ```
 
 #### Select the phone's Windows volume
-> Use `list volume` to find it, it should be named **WINALPHA**
+> Use `list volume` to find it, replace `$` with the actual number of **WINALPHA**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Assign the letter x
@@ -69,20 +69,18 @@ select volume <number>
 assign letter x
 ```
 
-#### Exit diskpart:
+#### Exit diskpart
 ```diskpart
 exit
 ```
 
 ### Installing Drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> Enter the drive letter of `WINALPHA`, which should be X, then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINALPHA** (which should be **X**), then press enter
 
 ### Reboot back to edl
 > To restore your original abl
->
-> Skip this step if you didn't flash the engineering abl in the first place, and simply reboot your device
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
 - Select and flash the **abl_a.bin** file you've hopefully backed up before that is located in `C:\Users\YOURNAME\AppData\Roaming\Qualcomm\QFIL\COMPORT_#\`
@@ -94,6 +92,15 @@ exit
 > If you end up in Android instead of Windows, simply use the WOA Helper app to switch back.
 
 ## Finished!
+
+
+
+
+
+
+
+
+
 
 
 
