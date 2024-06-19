@@ -6,17 +6,18 @@
 Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
-- [x] Audio
+- [x] Audio (Speakers)
+- [x] Audio (3.5mm)
 - [x] Battery percentage
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging (USB) ```VERY slow```
-- [ ] Charging (Wireless) ```unknown```
+- [ ] Charging (USB)
+- [ ] Charging (Wireless)
 - [x] Display
 - [x] GPU
 - [ ] LTE/SMS
-- [ ] SD
+- [ ] SD Card
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
