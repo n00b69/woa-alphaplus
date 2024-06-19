@@ -3,7 +3,7 @@
 # Running Windows on the LG G8
 
 ## Project status
-Beta. Most of the hardware works, but some components do not work yet.
+Stable, except for the current lack of any charging support.
 
 #### Features
 - [x] Audio (Speakers)
