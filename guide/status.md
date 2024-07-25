@@ -14,7 +14,7 @@ Stable, except for the current lack of any charging support.
 - [ ] Camera
 - [ ] Charging (USB)
 - [ ] Charging (Wireless)
-- [x] Display
+- [x] Display ```screen sometimes flickers when scrolling```
 - [x] GPU
 - [ ] LTE/SMS
 - [ ] SD Card
