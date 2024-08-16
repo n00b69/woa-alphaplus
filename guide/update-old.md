@@ -54,7 +54,7 @@ fastboot boot path\to\msc.img
 - Press the **power** button twice to confirm.
 
 > [!Note]
-> After 1-2 minutes **WINMH2LM5G** should automatically appear in Windows Explorer. If it does, skip to the "Installing drivers" step, else continue with the "Diskpart" steps.
+> After 1-2 minutes **WINALPHA** should automatically appear in Windows Explorer. If it does, skip to the "Installing drivers" step, else continue with the "Diskpart" steps.
 
 ### Diskpart
 ```cmd
