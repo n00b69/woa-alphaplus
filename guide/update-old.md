@@ -53,6 +53,9 @@ fastboot boot path\to\msc.img
 - Select **USB Attached SCSI (UAS) Storage**.
 - Press the **power** button twice to confirm.
 
+> [!Note]
+> After 1-2 minutes **WINMH2LM5G** should automatically appear in Windows Explorer. If it does, skip to the "Installing drivers" step, else continue with the "Diskpart" steps.
+
 ### Diskpart
 ```cmd
 diskpart
