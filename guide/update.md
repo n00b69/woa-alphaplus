@@ -2,7 +2,7 @@
 
 # Running Windows on the LG G8
 
-## Updating drivers (old method)
+## Updating drivers
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
