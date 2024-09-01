@@ -2,7 +2,7 @@
 
 # Running Windows on the LG G8
 
-## Dualbooting Android and Windows seamlessly
+## Dualboot guide
 
 ### Prerequisites
 - [UEFI image](https://github.com/n00b69/woa-alphaplus/releases/tag/UEFI)
