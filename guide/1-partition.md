@@ -12,12 +12,10 @@
 - [Qfil](https://github.com/n00b69/woa-alphaplus/releases/tag/Qfil)
 
 - [QFILHelper](https://github.com/Beliathal/QFILHelper) Optional, for easier partition backups
+
+- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin)
   
-- [Parted script](https://github.com/n00b69/woa-alphaplus/releases/download/Files/parted)
-
-- [Engineering ABL](https://github.com/n00b69/woa-alphaplus/releases/download/Files/engabl_ab.bin) Only needed if you don't have fastboot
-
-- Any custom recovery
+- [Modded TWRP](https://github.com/n00b69/woa-alphaplus/releases/download/Files/modded-twrp-g8.img)
 
 ### Notes
 > [!WARNING]  
@@ -47,12 +45,13 @@ cd path\to\platform-tools
 - In "Select programmer", select the downloaded firehose.
 - In "Configuration", make sure the "Device Type" is set to **UFS**.
 
-#### Boot to EDL
+#### Boot into EDL
 - Open **Device Manager** on your PC
 - With the phone turned off, hold **volume down** + **power**.
 - After the LG logo appears, while still holding **volume down** + **power**, start rapidly pressing the **volume up** button.
 - Keep doing this until you hear a USB connection sound on your PC, or when **Qualcomm HS-USB QDLoader 9008** appears in the **Ports (COM & LPT)** category of Device Manager.
-- If the device is called **QUSB_BULK_CID** or has a ⚠️ yellow warning triangle / question mark, and is located in any other category (for example **Other devices**), you need to install EDL drivers first.
+> [!Note]
+> If the device is called **QUSB_BULK_CID** or has a ⚠️ yellow warning triangle / question mark, and is located in any other category (for example **Other devices**), you need to install EDL drivers first.
 - To install EDL drivers, extract the contents of **QUD.zip** somewhere, right click on **QUSB_BULK_CID**, click on **Update driver** and **Browse my computer for drivers**, then find and select the **QUD** folder.
 
 #### Making sure Qfil works
@@ -77,11 +76,21 @@ cd path\to\platform-tools
 - Select and flash the **engabl_ab.bin** file.
 - Do the same thing for **abl_b**.
 
-#### Reboot your phone
-> Hold **volume down** + **power** until it shows the LG logo, then release the buttons.
+#### Reboot into fastboot mode
+- Reboot your phone by holding **volume down** + **power** until it shows the LG logo, then release the buttons.
+- After it has booted, unplug the cable and power it off.
+- Once the device has turned off, hold the **volume down** button, then plug the cable back in.
+> [!Note]
+> If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
+- To install fastboot drivers, extract the contents of **QUD.zip** somewhere, right click on **Android**, click on **Update driver** and **Browse my computer for drivers**, then find and select the **QUD** folder.
 
-#### Boot into any custom recovery
-> Such as Lineage recovery, OFOX, or TWRP, which should be accessible by holding the **volume up** + **power** buttons, or with the Reboot to recovery button in Magisk
+#### Boot into the modded TWRP
+> Replace `path\to\modded-twrp-g8.img` with the actual path of the provided TWRP image
+>
+> After booting into TWRP, leave the device on the main screen. You can press the power button to turn the display off, if you want
+```cmd
+fastboot boot path\to\modded-twrp-g8.img
+```
 
 ### Backing up your boot image
 > This will back up your current boot image in the current directory
@@ -90,18 +99,24 @@ adb pull /dev/block/by-name/boot_a boot.img
 ```
 
 #### Unmount data
+> Ignore any possible errors and continue
 ```cmd
 adb shell umount /dev/block/by-name/userdata
 ```
 
-### Preparing for partitioning
-> Download the parted file and move it in the platform-tools folder, then run
+### Fixing the GPT
+> If you do not do this, Windows may break your device
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb shell fixgpt
+```
+
+### Preparing for partitioning
+```cmd
+adb shell parted /dev/block/sda
 ```
 
 #### Printing the current partition table
-> Parted will print the list of partitions, **userdata** should be the last partition in the list.
+> Parted will print the list of partitions, **userdata** or **grow** should be the last partition in the list
 ```cmd
 print
 ```
@@ -150,33 +165,23 @@ quit
 ### Format all data
 - Go to the Wipe menu in your recovery and wipe all data. If this doesn't work, simply reboot your phone.
 
-### Reboot your phone
-> Once it is booted, it will tell you decryption was unsuccesful and it will ask you to erase all data.
-- Press this button to erase all data, then set up your phone (make sure to also enable USB debugging in developer settings).
+#### Reboot your phone
+> Once it is booted, it might tell you decryption was unsuccesful and it will ask you to erase all data.
+- Press this button to erase all data, then set up your phone (make sure to also enable USB debugging in developer settings), then reboot back into TWRP.
 
-### Formatting Windows and ESP drives
-> Reboot into TWRP, then run the below two commands
+### Formatting win and esp partitions
+> After rebooting back into TWRP
 ```cmd
 adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINALPHA
-``` 
-
+```
 ```cmd
 adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPALPHA
 ```
 
+#### Reboot your phone
+> In preparation for the next step
+
 ## [Next step: Rooting your phone](2-root.md)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

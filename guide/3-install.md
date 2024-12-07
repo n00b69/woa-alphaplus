@@ -29,7 +29,7 @@ fastboot boot path\to\msc.img
 - Press the **power** button twice to confirm.
 
 > [!Note]
-> If you are facing issues (e.g your device randomly reboots), follow [the steps described in this guide](https://github.com/n00b69/woa-mh2lm/blob/main/guide/troubleshooting.md#the-device-reboots-in-mass-storage-mode) for an alternative way of entering mass storage mode.
+> If you are facing issues (e.g your device randomly reboots), follow [the steps described in this guide](https://github.com/n00b69/woa-betalm/blob/main/guide/troubleshooting.md#the-device-reboots-in-mass-storage-mode) for an alternative way of entering mass storage mode.
 
 ### Diskpart
 > [!WARNING]
@@ -61,13 +61,13 @@ assign letter y
 ```
 
 #### Exit diskpart
-```diskpart
+```cmd
 exit
 ```
 
 ### Installing Windows
-> [!Warning]
-> DO NOT USE 24H2!!!
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
@@ -86,7 +86,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINALPHA** (which should be **X**), then press enter
   
 #### Create the Windows bootloader files
-> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPALPHA**, then replace the letter `Y` in the next commands with the letter that you just added.
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPBETALM**, then replace the letter `Y` in the next commands with the letter that you just added.
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -126,17 +126,6 @@ fastboot boot path\to\alpha-uefi.img
 Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](4-dualboot.md)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
