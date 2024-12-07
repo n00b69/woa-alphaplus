@@ -86,7 +86,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINALPHA** (which should be **X**), then press enter
   
 #### Create the Windows bootloader files
-> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPBETALM**, then replace the letter `Y` in the next commands with the letter that you just added.
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPALPHA**, then replace the letter `Y` in the next commands with the letter that you just added.
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
