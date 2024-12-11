@@ -5,7 +5,7 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Mass storage image](https://github.com/n00b69/woa-alphaplus/releases/download/Files/msc.img)
+- [Modded TWRP](https://github.com/n00b69/woa-alphaplus/releases/download/Files/modded-twrp-g8.img)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
   
@@ -16,20 +16,19 @@
 ### Reboot into fastboot mode
 - With the device turned off, hold the **volume down** button, then plug the cable in.
 
-#### Boot into the mass storage mode image
-> Replace `path\to\msc.img` with the actual path of the image
+### Boot modified TWRP recovery
+> Replace `path\to\modded-twrp-g8.img` with the actual path of the image
 ```cmd
-fastboot boot path\to\msc.img
+fastboot boot path\to\modded-twrp-g8.img
 ```
 
-#### Enabling mass storage mode
-> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
-- Select **UEFI Boot Menu**.
-- Select **USB Attached SCSI (UAS) Storage**.
-- Press the **power** button twice to confirm.
+#### Execute the msc script
+```cmd
+adb shell msc
+```
 
 > [!Note]
-> If you are facing issues (e.g your device randomly reboots), follow [the steps described in this guide](https://github.com/n00b69/woa-betalm/blob/main/guide/troubleshooting.md#the-device-reboots-in-mass-storage-mode) for an alternative way of entering mass storage mode.
+> If you are facing issues (e.g your device does not enter mass storage mode), follow [the steps described in this guide](https://github.com/n00b69/woa-alphaplus/blob/main/guide/troubleshooting.md#mass-storage-mode-does-not-work) for alternative ways of entering mass storage mode.
 
 ### Diskpart
 > [!WARNING]
@@ -113,8 +112,9 @@ mountvol y: /d
 ```
 
 ### Rebooting into fastboot mode
-- Reboot into fastboot mode by holding the **volume down** + **power** buttons until the text on the screen disappears, then immediately release the **power** button whilst continuing to hold **volume down**.
-> If your phone turns on instead, turn it off while the cable is plugged in, and keep holding tbe **volume down** button until it enters fastboot mode.
+```cmd
+adb reboot bootloader
+```
 
 ### Boot into the UEFI
 > Replace `path\to\alpha-uefi.img` with the actual path of the image
