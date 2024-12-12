@@ -14,10 +14,12 @@ Stable, except for the current lack of any charging support.
 - [ ] Camera
 - [ ] Charging (USB)
 - [ ] Charging (Wireless)
-- [x] Display ```screen sometimes flickers when scrolling```
-- [x] GPU
+- [x] Display
+- [ ] DisplayPort ```will likely never work```
+- [x] GPU ```screen sometimes flickers when scrolling```
 - [ ] LTE/SMS
-- [ ] SD Card
+- [ ] Microphone
+- [ ] SD card
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
