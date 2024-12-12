@@ -16,6 +16,7 @@ Stable, except for the current lack of any charging support.
 - [ ] Charging (Wireless)
 - [x] Display
 - [ ] DisplayPort ```will likely never work```
+- [ ] Flashlight
 - [x] GPU ```screen sometimes flickers when scrolling```
 - [ ] LTE/SMS
 - [ ] Microphone
