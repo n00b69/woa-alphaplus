@@ -20,6 +20,7 @@ This project is in early stages of development, all the files here have been con
 
 - [Troubleshooting](guide/troubleshooting.md)
 
+
 ## Miscellaneous
 - [Dualboot setup](guide/dualboot.md)
 
@@ -30,6 +31,11 @@ This project is in early stages of development, all the files here have been con
 - [Reinstall instructions](guide/reinstall.md)
 
 - [Uninstall instructions](guide/uninstall.md)
+
+
+## Maintainers
+[<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
+
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
