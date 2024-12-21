@@ -13,6 +13,7 @@ This project is in early stages of development, all the files here have been con
 > [!Important]
 > This guide is for the LG G8. Click the links here if you are looking for the [LG G8x](https://github.com/n00b69/woa-mh2lm) or the [LG G8s](https://github.com/n00b69/woa-betalm) guides.
 
+
 ## Get started
 - [Project status](guide/status.md)
 
@@ -34,6 +35,7 @@ This project is in early stages of development, all the files here have been con
 
 
 ## Maintainers
+[<img alt="Project Aloha" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118143494?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Project-Aloha)
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
 
 
