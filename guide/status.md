@@ -10,7 +10,7 @@ Stable, except for the current lack of any charging support.
 - [x] Audio (3.5mm)
 - [x] Battery percentage
 - [x] Bluetooth
-- [x] Brightness
+- [x] Brightness ```screen flickers when it is changed```
 - [ ] Camera
 - [ ] Charging (USB)
 - [ ] Charging (Wireless)
