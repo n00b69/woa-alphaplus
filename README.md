@@ -1,7 +1,7 @@
 <img align="right" src="https://github.com/n00b69/woa-alphaplus/blob/main/alphaplus.png" width="350" alt="Windows 11 running on alphaplus">
 
 # Running Windows on the LG G8
-[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woahelperchat)
+[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/lgedevices)
 
 ## ⚠️ Warning
 We are not responsible for bricked devices, dead LG workers, dead microSD cards, dead pmics, dead ram, dead ics, dead cpus, any LG mischief, dead cats or dogs, nuclear wars or you getting fired because you forgot to reboot to Android for the alarm.
