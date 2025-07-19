@@ -20,7 +20,7 @@ Stable, except for the current lack of any charging support.
 - [x] GPU ```screen sometimes flickers when scrolling```
 - [ ] LTE/SMS
 - [ ] Microphone
-- [ ] SD card
+- [x] SD card
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
